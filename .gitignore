@@ -1,0 +1,27 @@
+# Laravel specific
+/vendor/
+/node_modules/
+/public/storage
+/storage/*.key
+/storage/*.log
+/storage/framework/cache/data
+/storage/logs/*.log
+/storage/framework/sessions
+/storage/framework/views
+/storage/framework/testing
+
+# Environment variables
+/.env
+
+# Laravel IDE Helper
+.phpstorm.meta.php
+_ide_helper.php
+_ide_helper_models.php
+
+# Ignore cached routes and services
+/bootstrap/cache/*.php
+
+# Composer files
+composer.lock
+composer.phar
+
